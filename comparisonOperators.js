@@ -29,8 +29,7 @@ query :  db.routes.find({"stop":{$gt:0}})
 
 // q.4 Find all documents whose triptime is less than or equal to 30 seconds and whose type is not Subscriber:
 
-  /*  ans:
+/*  ans:
 query :  db.trip.find({"triptime":{$lte:30},{type:{$ne:Subscriber}} })
 */
 
- 
