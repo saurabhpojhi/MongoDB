@@ -4,7 +4,7 @@
 {
     $lookup:
     {
-        from: < "from collection" >,  
+        from: < "from collection" >,    
         localField: < any field from "input collection" >,
         foreignField: < any field from "from collection" >,
         as: < attached array field >
